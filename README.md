@@ -1,19 +1,19 @@
 # Hospital Patient Process Analysis (Celonis)
 
-## 📌 Project Overview
+## Project Overview
 This project utilizes **Celonis** to perform process mining on a hospital event log. The goal was to visualize patient pathways, identify bottlenecks in the admission-to-discharge process, and analyze deviations from the ideal process flow.
 
-## 🛠️ Tools Used
+## Tools Used
 * **Process Mining:** Celonis (Academic Cloud)
 * **Data Source:** Hospital Mini Dataset 2024 (CSV log file)
 * **Concepts:** Process Discovery, Variant Analysis, Throughput Time Calculation
 
-## 🔍 Key Insights
+## Key Insights
 * **Happy Path:** The most common patient journey is [Enter Emergency -> Internal Medicine -> Discharge].
 * **Bottlenecks:** Identified that patients transferring between [Department A] and [Department B] experience the longest wait times.
 * *(Replace the above with your actual findings from the assignment)*
 
-## 📸 Process Visualizations
+## Process Visualizations
 ### 1. Process Map (Happy Path)
 ![Process Map](./images/process_map_overview.png)
 *Visualizing the primary flow of patients through the hospital system.*
