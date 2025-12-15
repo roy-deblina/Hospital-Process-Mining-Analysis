@@ -1,0 +1,208 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36" version="28.1.0">
+  <diagram id="WB-Blockchain-BPMN" name="West Bengal Blockchain Voting (BPMN)">
+    <mxGraphModel dx="1901" dy="1099" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1800" pageHeight="1200" background="#ffffff" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="West Bengal’s Blockchain‑Verified Voting Process (BPMN Overview)" style="text;html=1;align=center;verticalAlign=middle;fontSize=20;fontStyle=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="200" y="20" width="1400" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="p1_box" value="" style="rounded=1;arcSize=10;strokeColor=#BDBDBD;fillColor=#FFFFFF;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="120" y="90" width="1560" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="p1_label" value="Phase 1 — Voter Roll &amp; Digital Onboarding" style="text;html=1;align=center;verticalAlign=middle;fontSize=16;fontStyle=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="120" y="64" width="1560" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="p2_box" value="" style="rounded=1;arcSize=10;strokeColor=#BDBDBD;fillColor=#FFFFFF;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="120" y="320" width="1560" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="p2_label" value="Phase 2 — Secure System Setup" style="text;html=1;align=center;verticalAlign=middle;fontSize=16;fontStyle=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="120" y="294" width="1560" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="p3_box" value="" style="rounded=1;arcSize=10;strokeColor=#BDBDBD;fillColor=#FFFFFF;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="120" y="550" width="1560" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="p3_label" value="Phase 3 — Voting Day (Digital)" style="text;html=1;align=center;verticalAlign=middle;fontSize=16;fontStyle=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="120" y="524" width="1560" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="p4_box" value="" style="rounded=1;arcSize=10;strokeColor=#BDBDBD;fillColor=#FFFFFF;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="120" y="820" width="1560" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="p4_label" value="Phase 4 — Close, Tally &amp; Audit" style="text;html=1;align=center;verticalAlign=middle;fontSize=16;fontStyle=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="120" y="794" width="1560" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="p1_start" value="" style="shape=mxgraph.bpmn.event;eventType=start;outlineConnect=1;strokeColor=#34A853;fillColor=#E6F4EA;" parent="1" vertex="1">
+          <mxGeometry x="150" y="174" width="32" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="p1_t1" value="Announcement of Election Schedule" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;strokeColor=#424242;fillColor=#FFFFFF;strokeWidth=1;align=center;verticalAlign=middle;fontSize=13;" parent="1" vertex="1">
+          <mxGeometry x="220" y="162" width="220" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p1_t2" value="Update/De‑duplicate Electoral Roll" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;strokeColor=#424242;fillColor=#FFFFFF;strokeWidth=1;align=center;verticalAlign=middle;fontSize=13;" parent="1" vertex="1">
+          <mxGeometry x="480" y="162" width="220" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p1_t3" value="eKYC &amp; Voter Onboarding (Aadhaar/OTP + Biometrics)" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;strokeColor=#424242;fillColor=#FFFFFF;strokeWidth=1;align=center;verticalAlign=middle;fontSize=13;" parent="1" vertex="1">
+          <mxGeometry x="740" y="162" width="280" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p1_t4" value="Issue Digital Voter ID &amp; Wallet" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;strokeColor=#424242;fillColor=#FFFFFF;strokeWidth=1;align=center;verticalAlign=middle;fontSize=13;" parent="1" vertex="1">
+          <mxGeometry x="1050" y="162" width="220" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p1_t5" value="Final Publication of Electoral Roll" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;strokeColor=#424242;fillColor=#FFFFFF;strokeWidth=1;align=center;verticalAlign=middle;fontSize=13;" parent="1" vertex="1">
+          <mxGeometry x="1310" y="162" width="220" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p1_end" value="" style="shape=mxgraph.bpmn.event;eventType=end;outlineConnect=1;strokeColor=#EA4335;fillColor=#FDE7E9;" parent="1" vertex="1">
+          <mxGeometry x="1700" y="174" width="32" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="p2_start" value="" style="shape=mxgraph.bpmn.event;eventType=start;outlineConnect=1;strokeColor=#34A853;fillColor=#E6F4EA;" parent="1" vertex="1">
+          <mxGeometry x="150" y="404" width="32" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="p2_t1" value="Provision Validators (WBSEC‑approved)" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;strokeColor=#424242;fillColor=#FFFFFF;strokeWidth=1;align=center;verticalAlign=middle;fontSize=13;" parent="1" vertex="1">
+          <mxGeometry x="220" y="392" width="220" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p2_t2" value="Initialize Permissioned Blockchain (Genesis + Policies)" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;strokeColor=#424242;fillColor=#FFFFFF;strokeWidth=1;align=center;verticalAlign=middle;fontSize=13;" parent="1" vertex="1">
+          <mxGeometry x="480" y="392" width="280" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p2_t3" value="Load Candidate List &amp; Digital Ballots" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;strokeColor=#424242;fillColor=#FFFFFF;strokeWidth=1;align=center;verticalAlign=middle;fontSize=13;" parent="1" vertex="1">
+          <mxGeometry x="800" y="392" width="220" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p2_t4" value="Pen‑Testing &amp; Availability Drills" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;strokeColor=#424242;fillColor=#FFFFFF;strokeWidth=1;align=center;verticalAlign=middle;fontSize=13;" parent="1" vertex="1">
+          <mxGeometry x="1060" y="392" width="220" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p2_t5" value="Observer Nodes &amp; Transparency Portal" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;strokeColor=#424242;fillColor=#FFFFFF;strokeWidth=1;align=center;verticalAlign=middle;fontSize=13;" parent="1" vertex="1">
+          <mxGeometry x="1320" y="392" width="220" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p2_end" value="" style="shape=mxgraph.bpmn.event;eventType=end;outlineConnect=1;strokeColor=#EA4335;fillColor=#FDE7E9;" parent="1" vertex="1">
+          <mxGeometry x="1700" y="404" width="32" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="p3_start" value="" style="shape=mxgraph.bpmn.event;eventType=start;outlineConnect=1;strokeColor=#34A853;fillColor=#E6F4EA;" parent="1" vertex="1">
+          <mxGeometry x="150" y="634" width="32" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="p3_t1" value="Secure Login (MFA: eKYC + OTP)" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;strokeColor=#424242;fillColor=#FFFFFF;strokeWidth=1;align=center;verticalAlign=middle;fontSize=13;" parent="1" vertex="1">
+          <mxGeometry x="220" y="622" width="220" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p3_t2" value="Eligibility Check &amp; Ballot Retrieval" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;strokeColor=#424242;fillColor=#FFFFFF;strokeWidth=1;align=center;verticalAlign=middle;fontSize=13;" parent="1" vertex="1">
+          <mxGeometry x="480" y="622" width="220" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p3_t3" value="Blind Signature / Mix‑Net (Anonymize Link to Voter)" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;strokeColor=#424242;fillColor=#FFFFFF;strokeWidth=1;align=center;verticalAlign=middle;fontSize=13;" parent="1" vertex="1">
+          <mxGeometry x="740" y="622" width="280" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p3_t4" value="Cast Vote → Encrypt → Sign" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;strokeColor=#424242;fillColor=#FFFFFF;strokeWidth=1;align=center;verticalAlign=middle;fontSize=13;" parent="1" vertex="1">
+          <mxGeometry x="1050" y="622" width="220" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p3_t5" value="Record Transaction on Blockchain" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;strokeColor=#424242;fillColor=#FFFFFF;strokeWidth=1;align=center;verticalAlign=middle;fontSize=13;" parent="1" vertex="1">
+          <mxGeometry x="1310" y="622" width="220" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p3_t6" value="Return Receipt Hash to Voter" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;strokeColor=#424242;fillColor=#FFFFFF;strokeWidth=1;align=center;verticalAlign=middle;fontSize=13;" parent="1" vertex="1">
+          <mxGeometry x="1550" y="622" width="220" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p3_end" value="" style="shape=mxgraph.bpmn.event;eventType=end;outlineConnect=1;strokeColor=#EA4335;fillColor=#FDE7E9;" parent="1" vertex="1">
+          <mxGeometry x="1790" y="634" width="32" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="p4_start" value="" style="shape=mxgraph.bpmn.event;eventType=start;outlineConnect=1;strokeColor=#34A853;fillColor=#E6F4EA;" parent="1" vertex="1">
+          <mxGeometry x="150" y="904" width="32" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="p4_t1" value="Close Polls (Smart‑contract Cut‑off)" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;strokeColor=#424242;fillColor=#FFFFFF;strokeWidth=1;align=center;verticalAlign=middle;fontSize=13;" parent="1" vertex="1">
+          <mxGeometry x="220" y="892" width="220" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p4_t2" value="Zero‑Knowledge Tally / Homomorphic Count" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;strokeColor=#424242;fillColor=#FFFFFF;strokeWidth=1;align=center;verticalAlign=middle;fontSize=13;" parent="1" vertex="1">
+          <mxGeometry x="480" y="892" width="280" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p4_t3" value="Publish Results + Merkle Proofs" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;strokeColor=#424242;fillColor=#FFFFFF;strokeWidth=1;align=center;verticalAlign=middle;fontSize=13;" parent="1" vertex="1">
+          <mxGeometry x="800" y="892" width="220" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p4_t4" value="Observer/Audit Review &amp; Recount, if needed" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;strokeColor=#424242;fillColor=#FFFFFF;strokeWidth=1;align=center;verticalAlign=middle;fontSize=13;" parent="1" vertex="1">
+          <mxGeometry x="1060" y="892" width="280" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p4_t5" value="Archive, Governance Report, Lessons Learned" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;strokeColor=#424242;fillColor=#FFFFFF;strokeWidth=1;align=center;verticalAlign=middle;fontSize=13;" parent="1" vertex="1">
+          <mxGeometry x="1380" y="892" width="280" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p4_end" value="" style="shape=mxgraph.bpmn.event;eventType=end;outlineConnect=1;strokeColor=#EA4335;fillColor=#FDE7E9;" parent="1" vertex="1">
+          <mxGeometry x="1700" y="904" width="32" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" style="endArrow=block;edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;" parent="1" source="p1_start" target="p1_t1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" style="endArrow=block;edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;" parent="1" source="p1_t1" target="p1_t2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e3" style="endArrow=block;edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;" parent="1" source="p1_t2" target="p1_t3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e4" style="endArrow=block;edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;" parent="1" source="p1_t3" target="p1_t4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e5" style="endArrow=block;edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;" parent="1" source="p1_t4" target="p1_t5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e6" style="endArrow=block;edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;" parent="1" source="p1_t5" target="p1_end" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e7" style="endArrow=block;edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;dashed=1;dashPattern=3 3;strokeColor=#9E9E9E;" parent="1" source="p1_end" target="p2_start" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e8" style="endArrow=block;edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;" parent="1" source="p2_start" target="p2_t1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e9" style="endArrow=block;edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;" parent="1" source="p2_t1" target="p2_t2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e10" style="endArrow=block;edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;" parent="1" source="p2_t2" target="p2_t3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e11" style="endArrow=block;edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;" parent="1" source="p2_t3" target="p2_t4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e12" style="endArrow=block;edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;" parent="1" source="p2_t4" target="p2_t5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e13" style="endArrow=block;edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;" parent="1" source="p2_t5" target="p2_end" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e14" style="endArrow=block;edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;dashed=1;dashPattern=3 3;strokeColor=#9E9E9E;" parent="1" source="p2_end" target="p3_start" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e15" style="endArrow=block;edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;" parent="1" source="p3_start" target="p3_t1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e16" style="endArrow=block;edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;" parent="1" source="p3_t1" target="p3_t2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e17" style="endArrow=block;edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;" parent="1" source="p3_t2" target="p3_t3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e18" style="endArrow=block;edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;" parent="1" source="p3_t3" target="p3_t4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e19" style="endArrow=block;edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;" parent="1" source="p3_t4" target="p3_t5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e20" style="endArrow=block;edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;" parent="1" source="p3_t5" target="p3_t6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e21" style="endArrow=block;edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;" parent="1" source="p3_t6" target="p3_end" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e22" style="endArrow=block;edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;dashed=1;dashPattern=3 3;strokeColor=#9E9E9E;" parent="1" source="p3_end" target="p4_start" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e23" style="endArrow=block;edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;" parent="1" source="p4_start" target="p4_t1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e24" style="endArrow=block;edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;" parent="1" source="p4_t1" target="p4_t2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e25" style="endArrow=block;edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;" parent="1" source="p4_t2" target="p4_t3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e26" style="endArrow=block;edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;" parent="1" source="p4_t3" target="p4_t4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e27" style="endArrow=block;edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;" parent="1" source="p4_t4" target="p4_t5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e28" style="endArrow=block;edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;" parent="1" source="p4_t5" target="p4_end" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
